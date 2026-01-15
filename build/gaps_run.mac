@@ -1,0 +1,70 @@
+/tracking/verbose 0
+
+# this is in cm btw
+
+/SimpleDet/det/active PVT 2.0 2.0 0.05 0 0 -2.6        
+/SimpleDet/det/active PVT 2.0 2.0 0.075 0 0 -2.49        
+/SimpleDet/det/active PVT 2.0 2.0 0.10 0 0 -2.355
+/SimpleDet/det/active PVT 2.0 2.0 0.125 0 0 -2.195
+/SimpleDet/det/active PVT 2.0 2.0 0.15 0 0 -2.01
+/SimpleDet/det/active PVT 2.0 2.0 0.5 0 0 -1.67
+
+/SimpleDet/det/passive G4_MYLAR 2.0 2.0 0.02 0 0 -2.565
+/SimpleDet/det/passive G4_MYLAR 2.0 2.0 0.02 0 0 -2.635
+/SimpleDet/det/passive G4_MYLAR 2.0 0.02 0.05 0 -1.01 -2.6
+/SimpleDet/det/passive G4_MYLAR 2.0 0.02 0.05 0 1.01 -2.6
+/SimpleDet/det/passive G4_MYLAR 0.02 2.0 0.05 -1.01 0 -2.6
+/SimpleDet/det/passive G4_MYLAR 0.02 2.0 0.05 1.01 0 -2.6
+
+/SimpleDet/det/passive G4_MYLAR 2.0 2.0 0.02 0 0 -2.4425
+/SimpleDet/det/passive G4_MYLAR 2.0 2.0 0.02 0 0 -2.5375
+/SimpleDet/det/passive G4_MYLAR 2.0 0.02 0.075 0 -1.01 -2.49
+/SimpleDet/det/passive G4_MYLAR 2.0 0.02 0.075 0 1.01 -2.49
+/SimpleDet/det/passive G4_MYLAR 0.02 2.0 0.075 -1.01 0 -2.49
+/SimpleDet/det/passive G4_MYLAR 0.02 2.0 0.075 1.01 0 -2.49
+
+/SimpleDet/det/passive G4_MYLAR 2.0 2.0 0.02 0 0 -2.295
+/SimpleDet/det/passive G4_MYLAR 2.0 2.0 0.02 0 0 -2.415
+/SimpleDet/det/passive G4_MYLAR 2.0 0.02 0.10 0 -1.01 -2.355
+/SimpleDet/det/passive G4_MYLAR 2.0 0.02 0.10 0 1.01 -2.355
+/SimpleDet/det/passive G4_MYLAR 0.02 2.0 0.10 -1.01 0 -2.355
+/SimpleDet/det/passive G4_MYLAR 0.02 2.0 0.10 1.01 0 -2.355
+
+/SimpleDet/det/passive G4_MYLAR 2.0 2.0 0.02 0 0 -2.1225
+/SimpleDet/det/passive G4_MYLAR 2.0 2.0 0.02 0 0 -2.2675
+/SimpleDet/det/passive G4_MYLAR 2.0 0.02 0.125 0 -1.01 -2.195
+/SimpleDet/det/passive G4_MYLAR 2.0 0.02 0.125 0 1.01 -2.195
+/SimpleDet/det/passive G4_MYLAR 0.02 2.0 0.125 -1.01 0 -2.195
+/SimpleDet/det/passive G4_MYLAR 0.02 2.0 0.125 1.01 0 -2.195
+
+/SimpleDet/det/passive G4_MYLAR 2.0 2.0 0.02 0 0 -1.925
+/SimpleDet/det/passive G4_MYLAR 2.0 2.0 0.02 0 0 -2.095
+/SimpleDet/det/passive G4_MYLAR 2.0 0.02 0.15 0 -1.01 -2.01
+/SimpleDet/det/passive G4_MYLAR 2.0 0.02 0.15 0 1.01 -2.01
+/SimpleDet/det/passive G4_MYLAR 0.02 2.0 0.15 -1.01 0 -2.01
+/SimpleDet/det/passive G4_MYLAR 0.02 2.0 0.15 1.01 0 -2.01
+
+/SimpleDet/det/passive G4_MYLAR 2.0 2.0 0.02 0 0 -1.41
+/SimpleDet/det/passive G4_MYLAR 2.0 2.0 0.02 0 0 -1.93
+/SimpleDet/det/passive G4_MYLAR 2.0 0.02 0.5 0 -1.01 -1.67
+/SimpleDet/det/passive G4_MYLAR 2.0 0.02 0.5 0 1.01 -1.67
+/SimpleDet/det/passive G4_MYLAR 0.02 2.0 0.5 -1.01 0 -1.67
+/SimpleDet/det/passive G4_MYLAR 0.02 2.0 0.5 1.01 0 -1.67
+
+#/SimpleDet/det/passive G4_Cu 2.02 2.02 0.2 0 0 -1.4
+#/SimpleDet/det/passive G4_Cu 2.02 0.2 2.02 0 -1.02 -2.6
+#/SimpleDet/det/passive G4_Cu 2.02 0.2 2.02 0 1.02 -2.6
+#/SimpleDet/det/passive G4_Cu 0.2 2.02 2.02 1.02 0 -2.6
+#/SimpleDet/det/passive G4_Cu 0.2 2.02 2.02 -1.02 0 -2.6
+
+/SimpleDet/det/initialize
+
+/gun/position  0 0 -30 cm 
+/gun/direction 0 0 1 
+
+/SimpleDet/run/setFileName proton_gaps80MeV
+/gun/particle proton
+/gun/energy 80 MeV
+/run/beamOn 10000
+
+

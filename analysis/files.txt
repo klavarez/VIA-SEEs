@@ -1,0 +1,17 @@
+/Users/neptoon/Desktop/VIA-SEES/SimpleDet2/ROOTfiles/proton_gaps_FTFP_BERT_2MeV.root
+/Users/neptoon/Desktop/VIA-SEES/SimpleDet2/ROOTfiles/proton_gaps_FTFP_BERT_10MeV.root
+/Users/neptoon/Desktop/VIA-SEES/SimpleDet2/ROOTfiles/proton_gaps_FTFP_BERT_20MeV.root
+/Users/neptoon/Desktop/VIA-SEES/SimpleDet2/ROOTfiles/proton_gaps_FTFP_BERT_30MeV.root
+/Users/neptoon/Desktop/VIA-SEES/SimpleDet2/ROOTfiles/proton_gaps_FTFP_BERT_40MeV.root
+/Users/neptoon/Desktop/VIA-SEES/SimpleDet2/ROOTfiles/proton_gaps_FTFP_BERT_50MeV.root
+/Users/neptoon/Desktop/VIA-SEES/SimpleDet2/ROOTfiles/proton_gaps_FTFP_BERT_60MeV.root
+/Users/neptoon/Desktop/VIA-SEES/SimpleDet2/ROOTfiles/proton_gaps_FTFP_BERT_70MeV.root
+/Users/neptoon/Desktop/VIA-SEES/SimpleDet2/ROOTfiles/proton_gaps_FTFP_BERT_80MeV.root
+/Users/neptoon/Desktop/VIA-SEES/SimpleDet2/ROOTfiles/electron_gaps_FTFP_BERT_250keV2.root
+/Users/neptoon/Desktop/VIA-SEES/SimpleDet2/ROOTfiles/electron_gaps_FTFP_BERT_500keV2.root
+/Users/neptoon/Desktop/VIA-SEES/SimpleDet2/ROOTfiles/electron_gaps_FTFP_BERT_750keV2.root
+/Users/neptoon/Desktop/VIA-SEES/SimpleDet2/ROOTfiles/electron_gaps_FTFP_BERT_1000keV2.root
+/Users/neptoon/Desktop/VIA-SEES/SimpleDet2/ROOTfiles/electron_gaps_FTFP_BERT_1250keV2.root
+/Users/neptoon/Desktop/VIA-SEES/SimpleDet2/ROOTfiles/electron_gaps_FTFP_BERT_1500keV2.root
+/Users/neptoon/Desktop/VIA-SEES/SimpleDet2/ROOTfiles/electron_gaps_FTFP_BERT_1750keV2.root
+/Users/neptoon/Desktop/VIA-SEES/SimpleDet2/ROOTfiles/electron_gaps_FTFP_BERT_2000keV2.root
