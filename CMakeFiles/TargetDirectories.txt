@@ -1,0 +1,8 @@
+/Users/neptoon/Desktop/VIA-SEES/SimpleDet2/CMakeFiles/SimpleDet2.dir
+/Users/neptoon/Desktop/VIA-SEES/SimpleDet2/CMakeFiles/AS.dir
+/Users/neptoon/Desktop/VIA-SEES/SimpleDet2/CMakeFiles/edit_cache.dir
+/Users/neptoon/Desktop/VIA-SEES/SimpleDet2/CMakeFiles/rebuild_cache.dir
+/Users/neptoon/Desktop/VIA-SEES/SimpleDet2/CMakeFiles/list_install_components.dir
+/Users/neptoon/Desktop/VIA-SEES/SimpleDet2/CMakeFiles/install.dir
+/Users/neptoon/Desktop/VIA-SEES/SimpleDet2/CMakeFiles/install/local.dir
+/Users/neptoon/Desktop/VIA-SEES/SimpleDet2/CMakeFiles/install/strip.dir
