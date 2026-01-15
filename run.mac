@@ -1,0 +1,26 @@
+/run/initialize
+/vis/viewer/zoom 1.7
+
+/vis/scene/endOfEventAction accumulate 100
+/gun/particle e-
+/gun/position 0 0 -2 cm
+/gun/energy 15 MeV
+/Scintillator/WrappingMat G4_MYLAR
+/Scintillator/Space1 -1 cm
+/Scintillator/WrapT1 .05 mm
+/Scintillator/Scint1Thickness .5 mm
+/Scintillator/Scint1Material Pvt
+/Scintillator/Scint2Thickness 1 mm
+/Scintillator/Scint2Material Pvt
+/Scintillator/Scint3Thickness 1 mm
+/Scintillator/Scint3Material Pvt
+/Scintillator/Scint4Thickness 1 mm
+/Scintillator/Scint4Material Pvt
+/Scintillator/Scint5Thickness 1 mm
+/Scintillator/Scint5Material Pvt
+/Scintillator/TransSensPlacement off
+/control/execute restart.mac
+/run/beamOn 1000
+/vis/ogl/export electron_Ej212t1_.5mm_MylarWt50um_15MeV_side
+/vis/viewer/set/viewpointThetaPhi 225. 25.
+/vis/ogl/export electron_Ej212t1_.5mm_MylarWt50um_15MeV_front
